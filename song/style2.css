@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");
+
+
+p {
+  margin: 0em 5em 4em 5em;
+}
+
+h1, p {
+  text-align: left;
+  line-height: 1.8;
+  font-family: Lora, serif;
+}
+
+.glowIn {
+  color: white;
+}
+.glowIn span {
+  animation: glow-in 0.8s both;
+}
+
+@keyframes glow-in {
+  from {
+    opacity: 0;
+  }
+  65% {
+    opacity: 1;
+    text-shadow: 0 0 25px white;
+  }
+  75% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.7;
+  }
+}
+
