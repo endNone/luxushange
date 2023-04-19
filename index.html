@@ -1,0 +1,572 @@
+<!doctype html>
+<html class="no-js" lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>芦墟山歌网</title>
+    <link rel="icon" href="picture_2/head.png" type="image/x-icon">
+    <meta name="robots" content="noindex, follow">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/font.awesome.min.css">
+    <link rel="stylesheet" href="static/css/ionicons.min.css">
+    <link rel="stylesheet" href="static/css/slick.min.css">
+    <link rel="stylesheet" href="static/css/animate.min.css">
+    <link rel="stylesheet" href="static/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="static/css/nice-select.min.css">
+    <link rel="stylesheet" href="static/css/magnific-popup.css">
+    <link rel="stylesheet" href="static/css/style.css">
+
+</head>
+<style>
+    .left{float:left}
+    .right{float:right}
+    .contain{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+    .contain .card{
+    margin-top: 100px;
+    position: relative;
+    max-width: 3000px;
+    height: 215px;
+    background: #fff;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 202px rgba(0,0,0,0.5);
+    transition: .3s ease-in-out;
+}
+    .contain .card:hover{
+    height: 450px;
+}
+
+    .contain .card .imgBx{
+    position: relative;
+    width: 260px;
+    height: 120px;
+    top: -60px;
+    left: 25px;
+    z-index: 1;
+    margin: -30px 0px;
+    
+}
+
+.contain .card .imgBx img{
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.contain .card .content{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s ease-in-out;
+}
+
+.contain .card:hover .content{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: .3s;
+}
+</style>
+<body>
+    <!-- 鼠标特效开始 -->
+    <script>
+        ! function(e, t, a) {
+            function r() {
+                for (var e = 0; e < s.length; e++) s[e].alpha <= 0 ? (t.body.removeChild(s[e].el), s.splice(e, 1)) : (s[e]
+                    .y--, s[e].scale += .004, s[e].alpha -= .013, s[e].el.style.cssText = "left:" + s[e].x + "px;top:" +
+                    s[e].y + "px;opacity:" + s[e].alpha + ";transform:scale(" + s[e].scale + "," + s[e].scale +
+                    ") rotate(45deg);background:" + s[e].color + ";z-index:99999");
+                requestAnimationFrame(r)
+            }
+
+            function n() {
+                var t = "function" == typeof e.onclick && e.onclick;
+                e.onclick = function(e) {
+                    t && t(), o(e)
+                }
+            }
+
+            function o(e) {
+                var a = t.createElement("div");
+                a.className = "heart", s.push({
+                    el: a,
+                    x: e.clientX - 5,
+                    y: e.clientY - 5,
+                    scale: 1,
+                    alpha: 1,
+                    color: c()
+                }), t.body.appendChild(a)
+            }
+
+            function i(e) {
+                var a = t.createElement("style");
+                a.type = "text/css";
+                try {
+                    a.appendChild(t.createTextNode(e))
+                } catch (t) {
+                    a.styleSheet.cssText = e
+                }
+                t.getElementsByTagName("head")[0].appendChild(a)
+            }
+
+            function c() {
+                return "rgb(" + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + ")"
+            }
+            var s = [];
+            e.requestAnimationFrame = e.requestAnimationFrame || e.webkitRequestAnimationFrame || e
+                .mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame || function(e) {
+                    setTimeout(e, 1e3 / 60)
+                }, i(
+                    ".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"
+                    ), n(), r()
+        }(window, document);
+    </script>
+    <!--鼠标特效结束 -->
+    <div class="home-wrapper home-1">
+        <!-- 顶部开始 -->
+        <header class="main-header-area">
+            <!-- 顶部静止窗口开始 -->
+            <div class="main-header" >
+                <div class="container container-default custom-area">
+                    <div class="row">
+                        <div class="col-lg-12 col-custom">
+                            <div class="row align-items-center">
+                                <div class="col-lg-2 col-xl-2 col-sm-6 col-6 col-custom">
+                                    <div class="header-logo d-flex align-items-center">
+                                        <img class="img-full" src="static/picture/logo.png" alt="Header Logo" style="width:215px;height:auto;" >    
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-xl-7 position-static d-none d-lg-block col-custom">
+                                    <nav class="main-nav d-flex justify-content-center">
+                                        <ul class="nav">
+                                            <li>
+                                                <a href="index.html">
+                                                    <span class="menu-text">简介</span>
+                                                    <i class="fa fa-angle-down"></i>
+                                                </a>
+                                                <ul class="dropdown-submenu dropdown-hover">
+                                                    <li><a href="index.html#背景介绍">背景介绍</a></li>
+                                                    <li><a href="index.html#价值体现">价值体现</a></li>
+                                                    <li><a href="index.html#发展历史">发展历史</a></li>
+                                                    <li><a href="index.html#保护传承">保护传承</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="people.html">
+                                                    <span class="menu-text">传承人</span>
+                                                    <i class="fa fa-angle-down"></i>
+                                                </a>
+                                                <ul class="dropdown-submenu dropdown-hover">
+                                                    <li><a href="people.html#img-one">陆阿妹</a></li>
+                                                    <li><a href="people.html#img-two">杨文英</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="song.html">
+                                                    <span class="menu-text">曲种</span>
+                                                    <i class="fa fa-angle-down"></i>
+                                                </a>
+                                                <ul class="dropdown-submenu dropdown-hover">
+                                                    <li><a href="song.html#img-one">响山歌</a></li>
+                                                    <li><a href="song.html#落秧歌">落秧歌</a></li>
+                                                    <li><a href="song.html#埭头歌">埭头歌</a></li>
+                                                    <li><a href="song.html#急口歌">急急歌</a></li>
+                                                    <li><a href="song.html#img-two">小山歌</a></li>
+                                                    <li><a href="song.html#滴落声">滴落声</a></li>
+                                                    <li><a href="song.html#羊兆头">羊兆头</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="document.html">
+                                                    <span class="menu-text"> 研究进展</span>
+                                                    <i class="fa fa-angle-down"></i>
+                                                </a>
+                                                <ul class="dropdown-submenu dropdown-hover">
+                                                    <li><a href="document.html">相关文献</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="unopened.html">
+                                                    <span class="menu-text">数字化展厅</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="video.html">
+                                                    <span class="menu-text">动漫化短片</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="unopened.html">
+                                                    <span class="menu-text"> 上传作品</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="unopened.html">
+                                                    <span class="menu-text">联系我们</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div class="col-lg-2 col-xl-3 col-sm-6 col-6 col-custom">
+                                    <div class="header-right-area main-nav">
+                                        <ul class="nav">
+                                            <li class="login-register-wrap d-none d-xl-flex">
+                                                <span><a href="login.html">登录</a></span>
+                                                <span><a href="sign.html">注册</a></span>
+                                            </li>
+                                            <li class="minicart-wrap">
+                                                <a href="unopened.html" class="minicart-btn toolbar-btn">
+                                                    <img class="img-full" src="static/picture/search.png" style="width:30px;height:auto;" >
+                                                </a> 
+                                                </div>
+                                            </li>
+                                            <li class="mobile-menu-btn d-lg-none">
+                                                <a class="off-canvas-btn" href="#">
+                                                    <i class="fa fa-bars"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 顶部静止窗口结束-->
+            <!-- 冻结顶部窗口开始-->
+            <div class="main-header  header-sticky" >
+                <div class="container container-default custom-area">
+                    <div class="row">
+                        <div class="col-lg-12 col-custom">
+                            <div class="row align-items-center">
+                                <div class="col-lg-2 col-xl-2 col-sm-6 col-6 col-custom">
+                                    <div class="header-logo d-flex align-items-center">
+                                        <img class="img-full" src="static/picture/logo.png" alt="Header Logo" style="width:215px;height:auto;" >    
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-xl-7 position-static d-none d-lg-block col-custom">
+                                    <nav class="main-nav d-flex justify-content-center">
+                                        <ul class="nav">
+                                            <li>
+                                                <a href="index.html">
+                                                    <span class="menu-text">简介</span>
+                                                    <i class="fa fa-angle-down"></i>
+                                                </a>
+                                                <ul class="dropdown-submenu dropdown-hover">
+                                                    <li><a href="index.html#背景介绍">背景介绍</a></li>
+                                                    <li><a href="index.html#价值体现">价值体现</a></li>
+                                                    <li><a href="index.html#发展历史">发展历史</a></li>
+                                                    <li><a href="index.html#保护传承">保护传承</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="people.html">
+                                                    <span class="menu-text">传承人</span>
+                                                    <i class="fa fa-angle-down"></i>
+                                                </a>
+                                                <ul class="dropdown-submenu dropdown-hover">
+                                                    <li><a href="people.html#img-one">陆阿妹</a></li>
+                                                    <li><a href="people.html#img-two">杨文英</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="song.html">
+                                                    <span class="menu-text">曲种</span>
+                                                    <i class="fa fa-angle-down"></i>
+                                                </a>
+                                                <ul class="dropdown-submenu dropdown-hover">
+                                                    <li><a href="song.html#img-one">响山歌</a></li>
+                                                    <li><a href="song.html#落秧歌">落秧歌</a></li>
+                                                    <li><a href="song.html#埭头歌">埭头歌</a></li>
+                                                    <li><a href="song.html#急口歌">急急歌</a></li>
+                                                    <li><a href="song.html#img-two">小山歌</a></li>
+                                                    <li><a href="song.html#滴落声">滴落声</a></li>
+                                                    <li><a href="song.html#羊兆头">羊兆头</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="document.html">
+                                                    <span class="menu-text"> 研究进展</span>
+                                                    <i class="fa fa-angle-down"></i>
+                                                </a>
+                                                <ul class="dropdown-submenu dropdown-hover">
+                                                    <li><a href="document.html">相关文献</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="unopened.html">
+                                                    <span class="menu-text">数字化展厅</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="video.html">
+                                                    <span class="menu-text">动漫化短片</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="unopened.html">
+                                                    <span class="menu-text"> 上传作品</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="unopened.html">
+                                                    <span class="menu-text">联系我们</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div class="col-lg-2 col-xl-3 col-sm-6 col-6 col-custom">
+                                    <div class="header-right-area main-nav">
+                                        <ul class="nav">
+                                            <li class="login-register-wrap d-none d-xl-flex">
+                                                <span><a href="login.html">登录</a></span>
+                                                <span><a href="sign.html">注册</a></span>
+                                            </li>
+                                            <li class="minicart-wrap">
+                                                <a href="unopened.html" class="minicart-btn toolbar-btn">
+                                                    <img class="img-full" src="static/picture/search.png" style="width:30px;height:auto;" >
+                                                </a> 
+                                                </div>
+                                            </li>
+                                            <li class="mobile-menu-btn d-lg-none">
+                                                <a class="off-canvas-btn" href="#">
+                                                    <i class="fa fa-bars"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- 顶部结束 -->
+        <!-- 滑动窗口开始 -->
+        <div class="slider-area">
+            <div class="obrien-slider arrow-style" data-slick-options='{
+        "slidesToShow": 1,
+        "slidesToScroll": 1,
+        "infinite": true,
+        "arrows": true,
+        "dots": true,
+        "autoplay" : true,
+        "fade" : true,
+        "autoplaySpeed" : 7000,
+        "pauseOnHover" : false,
+        "pauseOnFocus" : false
+        }' data-slick-responsive='[
+        {"breakpoint":992, "settings": {
+        "slidesToShow": 1,
+        "arrows": false,
+        "dots": true
+        }}
+        ]'>
+                <div class="slide-item slide-1 bg-position slide-bg-1 animation-style-01">
+                    <div class="slider-content">
+                        <br><br><br><center><h1 class="slider-small-title" style="font-size:150px">芦墟古镇</h1></center>
+                        <br><center><h1 class="slider-large-title" style="font-size:80px">山歌发展历史</h1></center>
+                        <div class="slider-btn">
+                            <br><br><center><a class="obrien-button black-btn" href="index.html#发展历史" style="width:200px ">查看详情</a></center>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item slide-2 bg-position slide-bg-1 animation-style-01">
+                    <div class="slider-content">
+                        <br><br><h1 class="slider-large-title" style="font-size:90px">&nbsp吴歌非遗传承人</h1>
+                        <br><h1 class="slider-large-title" style="font-size:120px">&nbsp杨文英</h1>
+                        <br><h1 class="slider-small-title" style="font-size:70px">&nbsp与芦墟山歌的故事</h1>
+                        <div class="slider-btn">
+                            <br><a class="obrien-button black-btn" href="people.html" style="width:200px;margin: 10px 0px 0px 100px">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- 滑动窗口结束 -->
+        <!-- 简介开始 -->
+        <div class="feature-area">
+            <div class="container container-default custom-wrapper">
+                <div class="row">
+                    <!-- 简介标题 -->
+                    <br><h1 id="1" class="title" style="font-size:80px" >简介</h1>
+                    <div style="border-bottom:2px solid #666;width:720px">
+                    </div>
+                    <!-- 背景介绍 -->
+                    <div id="背景介绍">
+                        <!-- 文 -->
+                        <div class="left" style="width:650px;height:400px;margin: 0px 0px 0px 40px;">
+                            <br><h3 id="2" class="title" style="font-size:45px" >背景介绍</h3><br><br>
+                            <p class="desc-content" style="font-size:23px">芦墟山歌发源于吴江市芦墟镇，历史悠久，至今已经传唱3000多年。一方水土育一方文化，芦墟山歌的形成与发展，与其独特的自然环境、丰富的民俗背景、悠久的历史人文背景密不可分；一方文化养一方水土，芦墟山歌不仅记载了劳动人民与自然的互动，刻画了历代芦墟人的生产和生活，还彰显了芦墟人独特的精神文化风貌，成为芦墟历史发展的重要组成部分。</p>
+                        </div>
+                        <!-- 图 -->
+                        <div class="right">                            
+                            <img src="static/picture/1.jpg" style="width:750px;height:450px">
+                        </div>
+                    </div>
+                    <!-- 价值体现开始 -->
+                    <h3 id="价值体现" class="title" style="font-size:45px;text-align:center;margin: 100px 0px 0px 0px">价值体现</h3><br><br>
+                    <div class="contain" >
+                        <!-- 叙事价值 -->
+                        <div class="card"style="width:350px;margin:0 180px 0 0;background-color:#cccccc;border:none">  
+                            <div class="imgBx">
+                                <h2>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp叙事价值</h2>
+                                <img src="picture_2/1.png" alt="">
+                            </div>
+                            <div class="content" style="margin:0 0px 0 0px">
+                                <br><br><h4>长篇叙述，民族抒情</h4>
+                                <p>杨敬伟曾经这样评价《五姑娘》的发掘：“我们汉民族地区，原来有山歌，但是没有（发掘）很长的山歌，只有少数民族地区有阿诗玛、刘三姐，等等，他们这些山歌都是长篇山歌……那么就是五姑娘（的发掘）填补了汉民族没有长歌的。”长篇叙事山歌《五姑娘》是芦墟山歌收集整理进程中的一个里程碑，它填补了汉民族长歌的空白，其独特的音乐叙事为后来者了解当地风土人情、历史变迁、生活细节提供了宝贵的材料。</p>
+                            </div>
+                        </div>
+                        <!-- 民俗价值 -->
+                        <div class="card"style="width:350px;margin:0 170px 0 0;background-color:#cccccc;border:none">
+                            <div class="imgBx">
+                                <h2>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp民俗价值</h2>
+                                <img src="picture_2/2.jpg" alt="">
+                            </div>
+                            <div class="content" style="margin:0 0px 0 0px">
+                                <br><br><h4>独特风物，传统传承</h4>
+                                <p>芦墟山歌的歌词不仅记录了人们劳动、生活、爱情，还记录了婚丧、庙会、祭祖、拜佛等多种民俗活动，是分湖流域劳动人民的真实生活写照。这种记录了人们祭祀、拜神活动的山歌对于学者们来说具有极高的民俗价值和“以歌补史”的独特历史价值。
+                                    此外，由于芦墟山歌兼有独特的民俗风韵，听者可以在原生态的民歌中、在神秘古老的回音里获得独特的美学体验。</p>
+                            </div>
+                        </div>
+                        <!-- 社会价值 -->
+                        <div class="card"style="width:350px;margin:0 0 0 0;background-color:#cccccc;border:none">
+                            <div class="imgBx">
+                                <h2>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp社会价值</h2>
+                                <img src="picture_2/3.jpg" alt="">
+                            </div>
+                            <div class="content" style="margin:0 0px 0 0px">
+                                <br><br><h4>齐之以礼，达情宣德</h4>
+                                <p>芦墟山歌具有“美教化，移风俗”的社会作用。芦墟山歌中部分歌词具有一定的哲理性，有的还有劝人为善、劝世和醒世的功效，如：“二劝世人休争强， 强人做事强人当，强中更有强中手， 那有强人好下场 …… ”，芦墟山歌中的这些劝世山歌对新时代建设和谐社会也具有其独特的文化价值；此外，原生态的民歌或民族音乐亦可为人类学、民族学提供资料，可给人类学提供有关族源的参考。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 价值体现结束style="background-color: rgb(248, 8, 8)" -->
+                    <!-- 发展结历史开始style="background-color: rgb(248, 8, 8)" -->
+                    <div id="发展历史" class="col-xl-6 col-lg-5 col-md-12 col-custom" >
+                        <div class="feature-content-wrapper">  
+                            <h3 class="title" style="font-size:45px" >发展历史</h3>
+                            <br><br><p class="desc-content" style="font-size:20px">芦墟山歌历史悠久，它的源头最早可追溯到汉朝，至宋代郭茂倩把魏晋时期的吴声歌曲编纂成集，成为《乐府诗词》中的一部分。到了明朝，在冯梦龙编纂的《山歌》和《挂枝儿》中，对山歌有了进一步的记录。在清代，当地历史文献、方志对芦墟山歌有了更详尽的记载。1926年、1928年，北京大学出版了《吴歌甲集》、《吴歌乙集》。新中国建立后，芦墟山歌得到党和各级政府的高度重视，开展了多次大规模的普查和学术研究活动。1982年，由张舫澜、马汉民、卢群搜集整理的长篇叙事山歌《五姑娘》，填补了汉族无长歌的空白，引起了国内外学者的轰动。</p>
+                            <br><br><br><br><br>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-4 col-md-12 col-custom" >
+                        <div class="feature-image">
+                            <img src="static/picture/3.jpg" alt="Obrien Feature" style="margin: 0px 0px 50px 0px">
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-5 col-md-12 col-custom">
+                        <div class="feature-content-wrapper">  
+                            <p class="desc-content" style="font-size:20px">1988年以来，芦墟山歌每年都参加县、市级和省际、直至全国性演出交流活动。从中央到地方许多新闻单位、知名大学、研究机构，先后来芦墟进行采访。在国际交流方面，从1988年起，有荷兰莱顿大学施聂姐、高文厚9次来芦墟采访，编辑出版了《山歌—中国苏南民歌研究》，日本东京学艺大学汉学家铃木键子，日本甲南大学、美国圣奥拉夫学院等教授先后来芦墟考察。联合国教科文组织、日本目手久民谣代表团也先后来访交流。1998年，吴江市文化艺术代表团出访日本千叶市。1997年9月，芦墟实验小学成立了少儿山歌班，翌年6月，成立了芦墟山歌社。2004年，由上海文艺出版社出版了180万字的山歌巨著《中国·芦墟山歌集》。</p>
+                            <a href="https://baike.baidu.com/item/%E8%8A%A6%E5%A2%9F%E5%B1%B1%E6%AD%8C/9602665?fr=aladdin"><p id="4" class="desc-content" style="font-size:20px">(节选自<u>百度百科</u>)</p></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-7 col-md-12 col-custom" >
+                        <div class="feature-image">
+                            <img src="static/picture/4.jpg"  style="margin: 0px 0px 50px 0px">
+                            <img src="static/picture/5.jpg"  style="width:320px;margin: 0px 0px 50px 0px" >
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-7 col-md-12 col-custom" style="margin: 60px 0px 0px 0px">
+                        <div class="feature-image">
+                            <img src="static/picture/6.jpg" style="width:650px" alt="Obrien Feature">
+                        </div>
+                    </div>
+                    <div id="保护传承"class="col-xl-6 col-lg-5 col-md-12 col-custom">
+                        <div class="feature-content-wrapper" style="margin: 0px 0px 0px 50px">
+                            <h1  class="title" style="font-size:1px" ></h1>
+                            <b><h3 class="title" style="font-size:45px" >保护传承</h3></b>
+                            <b><p class="desc-content" style="font-size:20px">静态保护：许多音乐工作者的长期大规模采风，118万字的《中国·芦墟山歌集》（2004年）和96万字的《中国·芦墟山歌续集》（2014年）两本巨作横空出世。</p></b>
+                            <b><br><p class="desc-content" style="font-size:20px">活化传承：1997年起，芦墟实验小学开办少儿山歌班，芦墟山歌社与山歌队成立，山歌社在组织筹划山歌节演出的同时，也挖掘、搜集、改编新山歌，获得了丰厚的成果。 </p></b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 简介结束 -->
+        <!-- 底部开始 -->
+        <br>
+        <footer class="footer-area">
+            <div class="footer-widget-area">
+                <div class="container container-default custom-area">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-custom">
+                            <div class="single-footer-widget m-0">
+                                <div class="footer-logo">
+                                    <a href="">
+                                        <img src="static/picture/footer.png" alt="Logo Image">
+                                    </a>
+                                </div>
+                                <p class="desc-content">本网站致力于非物质文化遗产芦墟山歌的保护宣传，一切资源仅供学习交流使用，若有侵权请联系我们删除。</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-custom">
+                            <div class="single-footer-widget">
+                                <br><h2 class="title" style="color:#ccc;font-size:30px" >友情链接</h2>
+                                <div style="border-bottom:2px solid #ccc"></div> 
+                                <ul class="widget-list">
+                                    <li><a href="https://www.ihchina.cn/" target="_blank">中国非物质文化遗产网</a></li>
+                                    <li><a href="https://baike.baidu.com/item/%E8%8A%A6%E5%A2%9F%E5%B1%B1%E6%AD%8C/9602665?fr=aladdin" target="_blank">芦墟山歌百度百科</a></li>
+                                    <li><a href="https://www.suda.edu.cn/" target="_blank">苏州大学官网</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright-area">
+                <div class="container custom-area">
+                    <div class="row">
+                        <div class="col-12 text-center col-custom">
+                            <div class="copyright-content">
+                                <p>Copyright &copy; 2023.芦墟山歌网All rights reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- 底部结束 -->
+    </div>
+    <a class="scroll-to-top" href="#">
+        <i class="ion-chevron-up"></i>
+    </a>
+    <script src="static/js/jquery-3.6.0.min.js"></script>
+    <script src="static/js/jquery-migrate-3.3.2.min.js"></script>
+    <script src="static/js/modernizr-2.8.3.min.js"></script>
+    <script src="static/js/bootstrap.bundle.min.js"></script>
+    <script src="static/js/slick.min.js"></script>
+    <script src="static/js/jquery.countdown.min.js"></script>
+    <script src="static/js/jquery.ajaxchimp.min.js"></script>
+    <script src="static/js/jquery.nice-select.min.js"></script>
+    <script src="static/js/jquery-ui.min.js"></script>
+    <script src="static/js/jquery.magnific-popup.min.js"></script>
+    <script src="static/js/main.js"></script>
+</body>
+
+</html>

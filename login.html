@@ -1,0 +1,420 @@
+<!doctype html>
+<html class="no-js" lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>芦墟山歌网</title>
+    <link rel="icon" href="picture_2/head.png" type="image/x-icon">
+    <meta name="robots" content="noindex, follow">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/font.awesome.min.css">
+    <link rel="stylesheet" href="static/css/ionicons.min.css">
+    <link rel="stylesheet" href="static/css/slick.min.css">
+    <link rel="stylesheet" href="static/css/animate.min.css">
+    <link rel="stylesheet" href="static/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="static/css/nice-select.min.css">
+    <link rel="stylesheet" href="static/css/magnific-popup.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="login/iconfont.css">
+    <link rel="stylesheet" href="login/index.css">
+</head>
+<style>
+    .hhh{ 
+            animation: fadeInAnimation ease 3s; 
+            animation-iteration-count: 1; 
+            animation-fill-mode: forwards; 
+        } 
+        @keyframes fadeInAnimation { 
+            0% { 
+                opacity: 0; 
+            } 
+            100% { 
+                opacity: 1; 
+            } 
+        } 
+    .left{float:left}
+    .right{float:right}
+</style>
+<body>
+    <!-- 鼠标特效开始 -->
+     <script>
+        ! function(e, t, a) {
+            function r() {
+                for (var e = 0; e < s.length; e++) s[e].alpha <= 0 ? (t.body.removeChild(s[e].el), s.splice(e, 1)) : (s[e]
+                    .y--, s[e].scale += .004, s[e].alpha -= .013, s[e].el.style.cssText = "left:" + s[e].x + "px;top:" +
+                    s[e].y + "px;opacity:" + s[e].alpha + ";transform:scale(" + s[e].scale + "," + s[e].scale +
+                    ") rotate(45deg);background:" + s[e].color + ";z-index:99999");
+                requestAnimationFrame(r)
+            }
+
+            function n() {
+                var t = "function" == typeof e.onclick && e.onclick;
+                e.onclick = function(e) {
+                    t && t(), o(e)
+                }
+            }
+
+            function o(e) {
+                var a = t.createElement("div");
+                a.className = "heart", s.push({
+                    el: a,
+                    x: e.clientX - 5,
+                    y: e.clientY - 5,
+                    scale: 1,
+                    alpha: 1,
+                    color: c()
+                }), t.body.appendChild(a)
+            }
+
+            function i(e) {
+                var a = t.createElement("style");
+                a.type = "text/css";
+                try {
+                    a.appendChild(t.createTextNode(e))
+                } catch (t) {
+                    a.styleSheet.cssText = e
+                }
+                t.getElementsByTagName("head")[0].appendChild(a)
+            }
+
+            function c() {
+                return "rgb(" + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + ")"
+            }
+            var s = [];
+            e.requestAnimationFrame = e.requestAnimationFrame || e.webkitRequestAnimationFrame || e
+                .mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame || function(e) {
+                    setTimeout(e, 1e3 / 60)
+                }, i(
+                    ".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"
+                    ), n(), r()
+        }(window, document);
+    </script>
+    <!--鼠标特效结束 -->
+    <div class="home-wrapper home-1">
+        <!-- 顶部开始 -->
+        <header class="main-header-area">
+            <!-- 顶部静止窗口开始 -->
+            <div class="main-header" >
+                <div class="container container-default custom-area">
+                    <div class="row">
+                        <div class="col-lg-12 col-custom">
+                            <div class="row align-items-center">
+                                <div class="col-lg-2 col-xl-2 col-sm-6 col-6 col-custom">
+                                    <div class="header-logo d-flex align-items-center">
+                                        <img class="img-full" src="static/picture/logo.png" alt="Header Logo" style="width:215px;height:auto;" >    
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-xl-7 position-static d-none d-lg-block col-custom">
+                                    <nav class="main-nav d-flex justify-content-center">
+                                        <ul class="nav">
+                                            <li>
+                                                <a href="index.html">
+                                                    <span class="menu-text">简介</span>
+                                                    <i class="fa fa-angle-down"></i>
+                                                </a>
+                                                <ul class="dropdown-submenu dropdown-hover">
+                                                    <li><a href="index.html#背景介绍">背景介绍</a></li>
+                                                    <li><a href="index.html#价值体现">价值体现</a></li>
+                                                    <li><a href="index.html#发展历史">发展历史</a></li>
+                                                    <li><a href="index.html#保护传承">保护传承</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="people.html">
+                                                    <span class="menu-text">传承人</span>
+                                                    <i class="fa fa-angle-down"></i>
+                                                </a>
+                                                <ul class="dropdown-submenu dropdown-hover">
+                                                    <li><a href="people.html#img-one">陆阿妹</a></li>
+                                                    <li><a href="people.html#img-two">杨文英</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="song.html">
+                                                    <span class="menu-text">曲种</span>
+                                                    <i class="fa fa-angle-down"></i>
+                                                </a>
+                                                <ul class="dropdown-submenu dropdown-hover">
+                                                    <li><a href="song.html#img-one">响山歌</a></li>
+                                                    <li><a href="song.html#落秧歌">落秧歌</a></li>
+                                                    <li><a href="song.html#埭头歌">埭头歌</a></li>
+                                                    <li><a href="song.html#急口歌">急急歌</a></li>
+                                                    <li><a href="song.html#img-two">小山歌</a></li>
+                                                    <li><a href="song.html#滴落声">滴落声</a></li>
+                                                    <li><a href="song.html#羊兆头">羊兆头</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="document.html">
+                                                    <span class="menu-text"> 研究进展</span>
+                                                    <i class="fa fa-angle-down"></i>
+                                                </a>
+                                                <ul class="dropdown-submenu dropdown-hover">
+                                                    <li><a href="document.html">相关文献</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="unopened.html">
+                                                    <span class="menu-text">数字化展厅</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="video.html">
+                                                    <span class="menu-text">动漫化短片</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="unopened.html">
+                                                    <span class="menu-text"> 上传作品</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="unopened.html">
+                                                    <span class="menu-text">联系我们</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div class="col-lg-2 col-xl-3 col-sm-6 col-6 col-custom">
+                                    <div class="header-right-area main-nav">
+                                        <ul class="nav">
+                                            <li class="login-register-wrap d-none d-xl-flex">
+                                                <span><a href="login.html">登录</a></span>
+                                                <span><a href="sign.html">注册</a></span>
+                                            </li>
+                                            <li class="minicart-wrap">
+                                                <a href="unopened.html" class="minicart-btn toolbar-btn">
+                                                    <img class="img-full" src="static/picture/search.png" style="width:30px;height:auto;" >
+                                                </a> 
+                                                </div>
+                                            </li>
+                                            <li class="mobile-menu-btn d-lg-none">
+                                                <a class="off-canvas-btn" href="#">
+                                                    <i class="fa fa-bars"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 顶部静止窗口结束-->
+            <!-- 冻结顶部窗口开始-->
+            <div class="main-header  header-sticky" >
+                <div class="container container-default custom-area">
+                    <div class="row">
+                        <div class="col-lg-12 col-custom">
+                            <div class="row align-items-center">
+                                <div class="col-lg-2 col-xl-2 col-sm-6 col-6 col-custom">
+                                    <div class="header-logo d-flex align-items-center">
+                                        <img class="img-full" src="static/picture/logo.png" alt="Header Logo" style="width:215px;height:auto;" >    
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-xl-7 position-static d-none d-lg-block col-custom">
+                                    <nav class="main-nav d-flex justify-content-center">
+                                        <ul class="nav">
+                                            <li>
+                                                <a href="index.html">
+                                                    <span class="menu-text">简介</span>
+                                                    <i class="fa fa-angle-down"></i>
+                                                </a>
+                                                <ul class="dropdown-submenu dropdown-hover">
+                                                    <li><a href="index.html#背景介绍">背景介绍</a></li>
+                                                    <li><a href="index.html#价值体现">价值体现</a></li>
+                                                    <li><a href="index.html#发展历史">发展历史</a></li>
+                                                    <li><a href="index.html#保护传承">保护传承</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="people.html">
+                                                    <span class="menu-text">传承人</span>
+                                                    <i class="fa fa-angle-down"></i>
+                                                </a>
+                                                <ul class="dropdown-submenu dropdown-hover">
+                                                    <li><a href="people.html#img-one">陆阿妹</a></li>
+                                                    <li><a href="people.html#img-two">杨文英</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="song.html">
+                                                    <span class="menu-text">曲种</span>
+                                                    <i class="fa fa-angle-down"></i>
+                                                </a>
+                                                <ul class="dropdown-submenu dropdown-hover">
+                                                    <li><a href="song.html#img-one">响山歌</a></li>
+                                                    <li><a href="song.html#落秧歌">落秧歌</a></li>
+                                                    <li><a href="song.html#埭头歌">埭头歌</a></li>
+                                                    <li><a href="song.html#急口歌">急急歌</a></li>
+                                                    <li><a href="song.html#img-two">小山歌</a></li>
+                                                    <li><a href="song.html#滴落声">滴落声</a></li>
+                                                    <li><a href="song.html#羊兆头">羊兆头</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="document.html">
+                                                    <span class="menu-text"> 研究进展</span>
+                                                    <i class="fa fa-angle-down"></i>
+                                                </a>
+                                                <ul class="dropdown-submenu dropdown-hover">
+                                                    <li><a href="document.html">相关文献</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="unopened.html">
+                                                    <span class="menu-text">数字化展厅</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="video.html">
+                                                    <span class="menu-text">动漫化短片</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="unopened.html">
+                                                    <span class="menu-text"> 上传作品</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="unopened.html">
+                                                    <span class="menu-text">联系我们</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div class="col-lg-2 col-xl-3 col-sm-6 col-6 col-custom">
+                                    <div class="header-right-area main-nav">
+                                        <ul class="nav">
+                                            <li class="login-register-wrap d-none d-xl-flex">
+                                                <span><a href="login.html">登录</a></span>
+                                                <span><a href="sign.html">注册</a></span>
+                                            </li>
+                                            <li class="minicart-wrap">
+                                                <a href="unopened.html" class="minicart-btn toolbar-btn">
+                                                    <img class="img-full" src="static/picture/search.png" style="width:30px;height:auto;" >
+                                                </a> 
+                                                </div>
+                                            </li>
+                                            <li class="mobile-menu-btn d-lg-none">
+                                                <a class="off-canvas-btn" href="#">
+                                                    <i class="fa fa-bars"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- 顶部结束 -->
+        <!-- 登录界面开始-->
+        <div class="login-register-area mt-no-text mb-no-text" >
+            <div class="container container-default-2 custom-area">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-custom">
+                        <div class="login-register-wrapper">
+                            <div class="section-content text-center mb-5">
+                                <h2 class="title-4 mb-2" style="font-size:45px">登录</h2>
+                            </div>
+                            <form action="unopened.html" method="post">
+                                <div class="single-input-item mb-3">
+                                    <input type="email" placeholder="手机号码或者用户名">
+                                </div>
+                                <div class="single-input-item mb-3">
+                                    <input type="password" placeholder="输入密码">
+                                </div>
+                                <div class="single-input-item mb-3">
+                                    <div class="login-reg-form-meta d-flex align-items-center justify-content-between">
+                                        <div class="remember-meta mb-3">
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="rememberMe">
+                                                <label class="custom-control-label" for="rememberMe" style="color:#8f8f8f;" ><b>记住密码</b></label>
+                                            </div>
+                                        </div>
+                                        <a href="unopened.html" class="forget-pwd mb-3" style="color:#8f8f8f;"><b>忘记密码</b></a>
+                                    </div>
+                                </div>
+                                <div class="single-input-item mb-3" style="width: 1000px;">
+                                    <button class="btn obrien-button-2 primary-color" style="margin: 0px 0px 0px 185px">登录</button>
+                                </div>
+                                <div class="single-input-item">
+                                    <a style="color:#8f8f8f;">还没账户？</a><a style="color:#8f8f8f;" href="sign.html"><u>创建一个</u></a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 登录界面结束-->
+        <!-- 底部开始 -->
+        <br>
+        <footer class="footer-area">
+            <div class="footer-widget-area">
+                <div class="container container-default custom-area">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-custom">
+                            <div class="single-footer-widget m-0">
+                                <div class="footer-logo">
+                                    <a href="">
+                                        <img src="static/picture/footer.png" alt="Logo Image">
+                                    </a>
+                                </div>
+                                <p class="desc-content">本网站致力于非物质文化遗产芦墟山歌的保护宣传，一切资源仅供学习交流使用，若有侵权请联系我们删除。</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-custom">
+                            <div class="single-footer-widget">
+                                <br><h2 class="title" style="color:#ccc;font-size:30px" >友情链接</h2>
+                                <div style="border-bottom:2px solid #ccc"></div> 
+                                <ul class="widget-list">
+                                    <li><a href="https://www.ihchina.cn/" target="_blank">中国非物质文化遗产网</a></li>
+                                    <li><a href="https://baike.baidu.com/item/%E8%8A%A6%E5%A2%9F%E5%B1%B1%E6%AD%8C/9602665?fr=aladdin" target="_blank">芦墟山歌百度百科</a></li>
+                                    <li><a href="https://www.suda.edu.cn/" target="_blank">苏州大学官网</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright-area">
+                <div class="container custom-area">
+                    <div class="row">
+                        <div class="col-12 text-center col-custom">
+                            <div class="copyright-content">
+                                <p>Copyright &copy; 2023.芦墟山歌网All rights reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- 底部结束 -->
+    </div>
+    <a class="scroll-to-top" href="#">
+        <i class="ion-chevron-up"></i>
+    </a>
+    <script src="static/js/jquery-3.6.0.min.js"></script>
+    <script src="static/js/jquery-migrate-3.3.2.min.js"></script>
+    <script src="static/js/modernizr-2.8.3.min.js"></script>
+    <script src="static/js/bootstrap.bundle.min.js"></script>
+    <script src="static/js/slick.min.js"></script>
+    <script src="static/js/jquery.countdown.min.js"></script>
+    <script src="static/js/jquery.ajaxchimp.min.js"></script>
+    <script src="static/js/jquery.nice-select.min.js"></script>
+    <script src="static/js/jquery-ui.min.js"></script>
+    <script src="static/js/jquery.magnific-popup.min.js"></script>
+    <script src="static/js/main.js"></script>
+
+</body>
+
+</html>
